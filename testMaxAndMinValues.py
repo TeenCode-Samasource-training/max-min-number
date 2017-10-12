@@ -29,3 +29,5 @@ class MaxMinTest(unittest.TestCase):
                              msg='Return the number of elements in the list in a new list if the `min` and `max` are equal')
 if __name__ == "__main__":
     unittest.main(exit = False)
+
+
