@@ -13,4 +13,3 @@ def findMaxMin(a=[]):
             final.append(a[0])
             final.append(a[-1])
         return final
-print (findMaxMin([2,-10,3,4,9,100,1000,50]))
