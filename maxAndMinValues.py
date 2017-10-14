@@ -1,4 +1,7 @@
 def findMaxMin(numbers):
-	if max(numbers) == min(numbers):
-		return [max(numbers)]
-	return [min(numbers),max(numbers)]
+	minimum = min(numbers)
+	maximum = max(numbers)
+	if minimum == maximum:
+		return [maximum]
+
+	return [minimum, maximum]
